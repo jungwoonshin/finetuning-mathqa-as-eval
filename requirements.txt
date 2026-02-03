@@ -1,0 +1,35 @@
+# LLM 수리추론 능력 강화 실험 - 의존성 버전
+# Google Colab T4 GPU 환경 테스트 완료
+
+# PyTorch (CUDA 11.8)
+# 설치 명령어: pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu118
+torch==2.4.0
+torchvision==0.19.0
+torchaudio==2.4.0
+
+# Transformers 관련
+transformers>=4.45.0
+datasets==2.21.0
+accelerate==0.33.0
+
+# PEFT/LoRA
+peft==0.12.0
+
+# Quantization
+bitsandbytes>=0.44.0
+scipy==1.13.1
+
+# Training
+trl==0.9.6
+
+# Logging
+wandb==0.17.5
+
+# Evaluation
+lm-eval==0.4.3
+
+# 기타 유틸리티
+python-dotenv>=1.0.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+numpy>=1.24.0

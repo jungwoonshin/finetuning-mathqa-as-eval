@@ -1,0 +1,15 @@
+# Environment
+.env
+
+# Outputs
+outputs/
+*.pt
+*.bin
+*.safetensors
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env.local
